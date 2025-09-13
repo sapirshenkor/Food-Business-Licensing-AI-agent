@@ -1,0 +1,13 @@
+# Document Processing Dependencies
+anthropic==0.7.8
+python-docx==0.8.11
+python-dotenv==1.0.0
+
+# Optional: PDF processing 
+PyPDF2==3.0.1
+
+# Data handling
+json5==0.9.14
+
+# Development & Testing  
+pytest==7.4.3

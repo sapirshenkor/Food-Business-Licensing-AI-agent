@@ -1,0 +1,519 @@
+{
+  "document_analysis": {
+    "total_requirements_found": 87,
+    "document_sections": [
+      "הגדרות כלליות",
+      "תנאים רוחביים",
+      "משטרת ישראל",
+      "משרד הבריאות",
+      "הרשות הארצית לכבאות והצלה - עד 50 איש ועד 150 מ״ר",
+      "הרשות הארצית לכבאות והצלה - כללי"
+    ],
+    "regulatory_authorities": [
+      "משטרת ישראל",
+      "משרד הבריאות",
+      "הרשות הארצית לכבאות והצלה",
+      "רשות הרישוי המקומית",
+      "המנהל הכללי משרד הבריאות",
+      "נציב כבאות והצלה",
+      "רשויות מקומיות"
+    ],
+    "processing_notes": "מסמך מקיף המכיל דרישות מפורטות לרישוי בית אוכל/מסעדה. כולל הבחנה בין דרישות שונות לפי גודל ותפוסה. מכיל הערה חשובה שמיום 14.6.2022 משטרת ישראל אינה נותנת אישור בפריט זה.",
+    "document_length": 15000,
+    "extraction_confidence": "גבוהה"
+  },
+  "general_requirements": [
+    {
+      "id": "general_001",
+      "name": "רישיון עסק מרשות מקומית",
+      "category": "רישוי בסיסי",
+      "authority": "רשות הרישוי המקומית",
+      "description": "הגשת בקשה לרישיון עסק הכוללת תרשים סביבה, מפה מצבית ותכנית עסק חתומים על ידי בעל מקצוע מוסמך",
+      "applies_to": "כל העסקים",
+      "timeline": "30 ימים מהגשה",
+      "estimated_cost": "לא מוגדר",
+      "priority": "גבוהה",
+      "source_location": "פרק 2 - תנאים רוחביים",
+      "additional_notes": "רישיון יוצג בעסק במקום נראה לעין"
+    },
+    {
+      "id": "general_002",
+      "name": "אישור משרד הבריאות",
+      "category": "בריאות וגיהות",
+      "authority": "משרד הבריאות",
+      "description": "עמידה בתנאי תברואה נאותים לבתי אוכל, כולל תכנית אדריכלית וסניטרית מפורטת",
+      "applies_to": "כל עסקי המזון",
+      "timeline": "45-60 ימים",
+      "estimated_cost": "לא מוגדר",
+      "priority": "גבוהה",
+      "source_location": "פרק 4 - משרד הבריאות",
+      "additional_notes": "נדרש מדריך נהלים ותקנות לטיפול במזון במטבחים גדולים"
+    },
+    {
+      "id": "general_003",
+      "name": "אישור הרשות הארצית לכבאות והצלה",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "עמידה בדרישות בטיחות אש והצלה כולל ציוד כיבוי, שילוט יציאה ותאורת חירום",
+      "applies_to": "כל העסקים",
+      "timeline": "30-45 ימים",
+      "estimated_cost": "לא מוגדר",
+      "priority": "גבוהה",
+      "source_location": "פרקים 5-6 - הרשות הארצית לכבאות והצלה",
+      "additional_notes": "דרישות משתנות לפי גודל ותפוסה"
+    },
+    {
+      "id": "general_004",
+      "name": "מניעת עישון",
+      "category": "בריאות הציבור",
+      "authority": "משרד הבריאות",
+      "description": "קביעת שלטים המורים על איסור העישון והימנעות מהציבת מאפרות למעט במקום נפרד מיועד לעישון",
+      "applies_to": "כל העסקים",
+      "timeline": "מיידי",
+      "estimated_cost": "100-500 ש״ח לשלטים",
+      "priority": "בינונית",
+      "source_location": "פרק 4.5 - מניעת עישון",
+      "additional_notes": "חובה על פי חוק למניעת העישון במקומות ציבוריים"
+    },
+    {
+      "id": "general_005",
+      "name": "דיווח על שינויים בעסק",
+      "category": "תחזוקה שוטפת",
+      "authority": "נותן האישור",
+      "description": "דיווח לנותן האישור על כל שינוי בעסק העלול להשפיע על העמידה בתנאי הרישיון, 3 חודשים מראש לפחות",
+      "applies_to": "כל העסקים",
+      "timeline": "3 חודשים מראש",
+      "estimated_cost": "ללא עלות",
+      "priority": "גבוהה",
+      "source_location": "פרק 2 - הוראות במפרט האחיד",
+      "additional_notes": "אי דיווח עלול להוביל לביטול רישיון"
+    }
+  ],
+  "size_specific_requirements": [
+    {
+      "id": "size_001",
+      "name": "פטור מדרישות משטרה",
+      "category": "משטרה",
+      "authority": "משטרת ישראל",
+      "description": "עסק עד 200 מקומות ישיבה ללא מכירה, הגשה וצריכה של משקאות משכרים פטור מהדרישות",
+      "conditions": {
+        "min_size_sqm": null,
+        "max_size_sqm": 150,
+        "size_notes": "עד 150 מ״ר ועד 200 מקומות ישיבה"
+      },
+      "timeline": "מיידי",
+      "estimated_cost": "ללא עלות נוספת",
+      "priority": "גבוהה",
+      "source_location": "פרק 3 - משטרת ישראל",
+      "additional_notes": "החל מיום 14.6.2022 משטרת ישראל אינה נותנת אישור בפריט זה"
+    },
+    {
+      "id": "size_002",
+      "name": "גלגלון כיבוי עד 120 מ״ר",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת גלגלון כיבוי אש עם זרנוק בקוטר 3/4 אינץ' במזנק צמוד",
+      "conditions": {
+        "min_size_sqm": null,
+        "max_size_sqm": 120,
+        "size_notes": "תשתית צינורות מתכת נדרשת"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "2,000-5,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.12 - ציוד כיבוי",
+      "additional_notes": "אם קיימת הפרדת אש ועשן בין חלקי העסק, יש להתקין בכל חלק"
+    },
+    {
+      "id": "size_003",
+      "name": "עמדות כיבוי אש מעל 120 מ״ר",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת עמדות כיבוי הכוללות ברז כיבוי, זרנוקים, מזנק, גלגלון ומטפה אבקה בארון מיוחד",
+      "conditions": {
+        "min_size_sqm": 120,
+        "max_size_sqm": null,
+        "size_notes": "ארון בגודל מינימלי 120x80x30 ס״מ"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "8,000-15,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.12 - ציוד כיבוי",
+      "additional_notes": "על הארון ייכתב 'עמדת כיבוי אש'"
+    },
+    {
+      "id": "size_004",
+      "name": "ברזי כיבוי חיצוניים עד 500 מ״ר",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת ברז כיבוי חיצוני בקוטר 3 אינץ' במרחק עד 80 מטר מהעסק",
+      "conditions": {
+        "min_size_sqm": null,
+        "max_size_sqm": 500,
+        "size_notes": "לפי תקן ישראלי ת״י 448"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "3,000-8,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.11.2 - אספקת מים",
+      "additional_notes": "בהתאם לתקן ישראלי ת״י 448 חלק 1 ו-3"
+    },
+    {
+      "id": "size_005",
+      "name": "מערכת ברזי כיבוי מעל 500 מ״ר",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת ברזי כיבוי חיצוניים על זקף 4 אינץ' בפריסה של ברז ליד הכניסה וברזים נוספים בהיקף",
+      "conditions": {
+        "min_size_sqm": 500,
+        "max_size_sqm": null,
+        "size_notes": "מרחק מקסימלי של 80 מטר בין ברזים"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "10,000-25,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.11.3 - אספקת מים",
+      "additional_notes": "בהתאם לתקן ישראלי ת״י 448"
+    },
+    {
+      "id": "size_006",
+      "name": "חיבור הסנקת מים מעל 800 מ״ר",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת חיבור הסנקת מים לברזי הכיבוי, ברז הסנקה מחוץ לעסק עד 6 מטרים מקצה העסק",
+      "conditions": {
+        "min_size_sqm": 800,
+        "max_size_sqm": null,
+        "size_notes": "ברז הסנקה במרחק עד 6 מטרים"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "5,000-12,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.11.4 - אספקת מים",
+      "additional_notes": "חיבור לברזי כיבוי מותקנים בעסק"
+    }
+  ],
+  "capacity_specific_requirements": [
+    {
+      "id": "capacity_001",
+      "name": "פתח יציאה יחיד עד 50 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "פתח יציאה אחד ברוחב 0.9 מטר נטו לפחות",
+      "conditions": {
+        "min_capacity": null,
+        "max_capacity": 50,
+        "capacity_notes": "עד 50 איש"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "1,000-3,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.8.1 - דרכי מוצא",
+      "additional_notes": "חובה על פי תקנות התכנון והבניה"
+    },
+    {
+      "id": "capacity_002",
+      "name": "שני פתחי יציאה 50-500 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "לפחות שני פתחי יציאה ברוחב 1.1 מטר נטו כל אחד, כיוון פתיחה כלפי כיוון המילוט",
+      "conditions": {
+        "min_capacity": 50,
+        "max_capacity": 500,
+        "capacity_notes": "למעלה מ-50 עד 500 איש"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "2,000-6,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.8.2 - דרכי מוצא",
+      "additional_notes": "דלתות נפתחות לכיוון המילוט"
+    },
+    {
+      "id": "capacity_003",
+      "name": "מערכת גילוי אש ועשן מעל 50 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת מערכת גילוי אש ועשן על פי תקן ישראלי ת״י 1220 חלק 3",
+      "conditions": {
+        "min_capacity": 50,
+        "max_capacity": null,
+        "capacity_notes": "מעל 50 איש ומעל 50 מ״ר"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "8,000-20,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.14 - מערכת גילוי אש ועשן",
+      "additional_notes": "המערכת תהיה פרוסה בכל חלקי העסק"
+    },
+    {
+      "id": "capacity_004",
+      "name": "ידית בהלה מעל 100 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת ידית בהלה בדלת המשמשת ליציאה מחלק מהעסק המיועד להכיל למעלה מ-100 איש",
+      "conditions": {
+        "min_capacity": 100,
+        "max_capacity": null,
+        "capacity_notes": "למעלה מ-100 איש"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "500-1,500 ש״ח",
+      "priority": "בינונית",
+      "source_location": "פרק 6.6 - ידית בהלה",
+      "additional_notes": "בהתאם לתקנות התכנון והבניה"
+    },
+    {
+      "id": "capacity_005",
+      "name": "מפסק חשמל חירום מעל 200 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת מפסק חשמל חירום במקום בולט ונגיש לניתוק זרם החשמל לכל המבנה",
+      "conditions": {
+        "min_capacity": 200,
+        "max_capacity": null,
+        "capacity_notes": "200 איש ומעלה"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "1,000-3,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.16.4 - מערכת החשמל",
+      "additional_notes": "מפסק ראשי לשעת חירום"
+    },
+    {
+      "id": "capacity_006",
+      "name": "מערכת שליטה בעשן מעל 200 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "סידורי שליטה בעשן בהתאם לתקנות התכנון והבנייה",
+      "conditions": {
+        "min_capacity": 200,
+        "max_capacity": null,
+        "capacity_notes": "200 איש ומעלה"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "15,000-40,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.17 - מערכת שליטה בעשן",
+      "additional_notes": "לפי פרט 3.9.33.1 לתקנות התכנון והבניה"
+    },
+    {
+      "id": "capacity_007",
+      "name": "מערכת מתזים מעל 300 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת מערכת כיבוי אש אוטומטית במים על פי תקן ישראלי ת״י 1596",
+      "conditions": {
+        "min_capacity": 300,
+        "max_capacity": null,
+        "capacity_notes": "מעל 300 איש ומעל 301 מ״ר"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "25,000-60,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.13 - מערכת מתזים",
+      "additional_notes": "נדרש אישור מהנדס והצהרת התאמה"
+    },
+    {
+      "id": "capacity_008",
+      "name": "מערכת כריזת חירום מעל 300 איש",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת מערכת מסירת הודעות (כריזת חירום) על פי תקנות התכנון והבניה",
+      "conditions": {
+        "min_capacity": 300,
+        "max_capacity": null,
+        "capacity_notes": "מעל 300 איש ומעל 300 מ״ר שטח עיקרי"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "8,000-20,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.19 - מערכת למסירת הודעות",
+      "additional_notes": "לפי פרט 3.9.32.3 לתקנות התכנון והבניה"
+    }
+  ],
+  "feature_specific_requirements": [
+    {
+      "id": "feature_001",
+      "name": "מערכות טמ״ס למכירת משקאות משכרים",
+      "category": "ביטחון",
+      "authority": "משטרת ישראל",
+      "description": "התקנת מערכת מצלמות טלוויזיה במעגל סגור ברזולוציה 1.3 מגה פיקסל עם גיבוי חשמל",
+      "conditions": {
+        "requires_gas": null,
+        "has_delivery": null,
+        "serves_meat": null,
+        "feature_notes": "רק למסעדות המוכרות משקאות משכרים"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "5,000-15,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 3.3.1 - מצלמות טמ״ס",
+      "additional_notes": "החל מ-14.6.2022 משטרת ישראל לא נותנת אישור"
+    },
+    {
+      "id": "feature_002",
+      "name": "שלטי איסור מכירת אלכוהול לקטינים",
+      "category": "רגולציה",
+      "authority": "משטרת ישראל",
+      "description": "התקנת שלט 40x50 ס״מ המודיע על איסור מכירת משקאות משכרים למי שטרם מלאו 18 שנים",
+      "conditions": {
+        "requires_gas": null,
+        "has_delivery": null,
+        "serves_meat": null,
+        "feature_notes": "למסעדות המוכרות משקאות משכרים"
+      },
+      "timeline": "מיידי",
+      "estimated_cost": "200-500 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 3.3.5 - מכירת משקאות",
+      "additional_notes": "השלט יהיה עם תאורה בשעות החשיכה"
+    },
+    {
+      "id": "feature_003",
+      "name": "מערכת גפ״מ (גז)",
+      "category": "בטיחות גז",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "מערכת גז עומדת בתקן ישראלי ת״י 158 עם התקני הפסקת זרימה במקרה דליפה",
+      "conditions": {
+        "requires_gas": true,
+        "has_delivery": null,
+        "serves_meat": null,
+        "feature_notes": "לעסקים המשתמשים בגז לבישול"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "3,000-10,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.24 - מערכת גז",
+      "additional_notes": "נדרש אישור בעל רישיון עבודת גפ״מ"
+    },
+    {
+      "id": "feature_004",
+      "name": "מערכת כיבוי במנדפים",
+      "category": "בטיחות אש",
+      "authority": "הרשות הארצית לכבאות והצלה",
+      "description": "התקנת מערכת כיבוי אש בכימיקלים רטובים במנדפים לפי תקן ת״י 5356 חלק 2",
+      "conditions": {
+        "requires_gas": true,
+        "has_delivery": null,
+        "serves_meat": null,
+        "feature_notes": "לעסקים עם מנדפים"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "8,000-20,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "פרק 6.24.4 - מערכת כיבוי במנדפים",
+      "additional_notes": "כולל ניתוק ממקור אנרגיה"
+    },
+    {
+      "id": "feature_005",
+      "name": "דרישות לשליחת מזון",
+      "category": "איכות מזון",
+      "authority": "משרד הבריאות",
+      "description": "עמידה בהנחיות שליחת מזון כולל רכב מתאים, ציוד שמירת טמפרטורה ותעודות משלוח",
+      "conditions": {
+        "requires_gas": null,
+        "has_delivery": true,
+        "serves_meat": null,
+        "feature_notes": "לעסקים המספקים שירותי משלוח מזון"
+      },
+      "timeline": "עם הקמת העסק",
+      "estimated_cost": "5,000-15,000 ש״ח",
+      "priority": "גבוהה",
+      "source_location": "נספח ב' - שליחת מזון",
+      "additional_notes": "זמן הובלה מקסימלי 3 שעות"
+    },
+    {
+      "id": "feature_006",
+      "name": "תעודות וטרינריות לבשר ודגים",
+      "category": "איכות מזון",
+      "authority": "משרד הבריאות",
+      "description": "קבלת בשר, עופות ודגים ממקור בעל רישיון יצרן עם תעודות וטרינריות",
+      "conditions": {
+        "requires_gas": null,
+        "has_delivery": null,
+        "serves_meat": true,
+        "feature_notes": "למסעדות המגישות בשר, עופות או דגים"
+      },
+      "timeline": "שוטף",
+      "estimated_cost": "ללא עלות נוספת",
+      "priority": "גבוהה",
+      "source_location": "פרק 4.4.3.2 - תנאים מוקדמים",
+      "additional_notes": "בשר ודגים יגיעו בלווי תעודות וטרינריות"
+    },
+    {
+      "id": "feature_007",
+      "name": "העברת כספים מהעסק בבלדרות",
+      "category": "ביטחון",
+      "authority": "משטרת ישראל",
+      "description": "העברת כספים מ-50,000 ש״ח ומעלה באמצעות בלדרות מאובטחת ברישיון עסק",
+      "conditions": {
+        "requires_gas": null,
+        "has_delivery": null,
+        "serves_meat": null,
+        "feature_notes": "למסעדות עם מחזור כספי גבוה"
+      },
+      "timeline": "שוטף",
+      "estimated_cost": "200-500 ש״ח לשירות",
+      "priority": "בינונית",
+      "source_location": "פרק 3.3.6 - העברת כספים",
+      "additional_notes": "לפי פריט 8.3 א' בצו רישוי עסקים"
+    }
+  ],
+  "important_information": [
+    {
+      "topic": "שינוי מדיניות משטרת ישראל",
+      "description": "החל מיום 14.6.2022, משטרת ישראל איננה נותנת אישור בפריט זה לבתי אוכל/מסעדות",
+      "relevance": "פוטר עסקים חדשים מהצורך בהשגת אישור משטרה",
+      "source_location": "הערה בפתיחת המסמך"
+    },
+    {
+      "topic": "אגרת השגה",
+      "description": "ניתן להגיש השגה על תנאי או מסמך שנדרש במפרט תמורת 323 ש״ח בלבד",
+      "relevance": "אפשרות לערער על דרישות בלתי סבירות",
+      "source_location": "פרק 2 - תנאים רוחביים"
+    },
+    {
+      "topic": "תוקף רישיון לפי היתר שימוש חורג",
+      "description": "רישיון לא יינתן לתקופה ארוכה מתוקף היתר השימוש החורג לפי חוק התכנון והבנייה",
+      "relevance": "עלול להגביל את תוקף הרישיון",
+      "source_location": "פרק 2 - תנאים רוחביים"
+    },
+    {
+      "topic": "ביטול רישיון עקב שינויים",
+      "description": "רישיון יבוטל במקרה של שינויים בעסק בהשוואה לתכניות שהוגשו",
+      "relevance": "חשיבות שמירה על התכניות המאושרות",
+      "source_location": "פרק 2.10 - ביטול רישיון"
+    },
+    {
+      "topic": "מדריך נהלים לטיפול במזון",
+      "description": "חובת קיום הדרישות המפורטות במדריך נהלים ותקנות לטיפול במזון במטבחים גדולים",
+      "relevance": "מדריך מקיף בן עשרות עמודים עם דרישות מפורטות",
+      "source_location": "נספח א' למשרד הבריאות"
+    },
+    {
+      "topic": "בדיקות תקופתיות נדרשות",
+      "description": "נדרשות בדיקות תקופתיות למערכות שונות: חשמל (5 שנים), מטפים, מערכות גילוי ועוד",
+      "relevance": "עלויות תחזוקה שוטפות שיש לקחת בחשבון",
+      "source_location": "פרקי כבאות ובריאות"
+    },
+    {
+      "topic": "הפרדת זקיפי זרם לפי עוצמה",
+      "description": "דרישות שונות למערכות בטיחות אש בלוחות חשמל לפי עוצמת הזרם (63/80/100+ אמפר)",
+      "relevance": "עלויות משתנות לפי הספק החשמלי הנדרש",
+      "source_location": "פרק 6.16 - מערכת חשמל"
+    }
+  ],
+  "processing_metadata": {
+    "processed_at": "2025-09-12T18:44:39.054584",
+    "processor_version": "1.0.0",
+    "api_calls_used": 1,
+    "total_cost": 0.3276
+  },
+  "summary": {
+    "total_requirements": 26,
+    "general_requirements_count": 5,
+    "size_specific_count": 6,
+    "capacity_specific_count": 8,
+    "feature_specific_count": 7
+  }
+}
